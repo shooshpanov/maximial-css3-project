@@ -15,6 +15,12 @@
   font-family: "Anton", sans-serif;
 }
 
+.plan__list {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
 .plan {
   background: #d5ffdc;
   text-align: center;
@@ -40,21 +46,25 @@
 }
 
 .plan__title {
-  color: darkgreen;
+  color: #0e4f1f;
 }
 
 .plan__price {
-  color: darkslategray;
+  color: #858585;
+}
+
+.plan--highlighted .plan__title {
+  color: white;
+}
+
+.plan--highlighted .plan__price {
+  color: #0e4f1f;
 }
 
 .plan__features {
   list-style: none;
   margin: 0;
   padding: 0;
-}
-
-.plan--highlighted .plan__price {
-  color: white;
 }
 
 .plan__feature {
@@ -81,7 +91,7 @@
 
 .key-feature {
   display: inline-block;
-  width: 33%;
+  width: 30%;
   vertical-align: top;
 }
 
